@@ -87,7 +87,8 @@ const App = () => {
               WhatsApp Wasn’t Built for Business. We Fixed That.
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl font-light mb-8 opacity-90">
-              Shared inbox, customer history, and sales pipeline — all inside WhatsApp.
+              Shared inbox, customer history, and sales pipeline — all inside
+              WhatsApp.
             </p>
             <div className="flex flex-col md:flex-row justify-center gap-4">
               <a href="#pricing" className="btn-primary">
@@ -106,9 +107,9 @@ const App = () => {
       <section className="relative z-20 container mx-auto px-6 mb-20 -mt-20">
         <div className="max-w-5xl mx-auto relative rounded-3xl overflow-hidden shadow-2xl shadow-black/50">
           <img
-            src="https://placehold.co/1200x800/25D366/E9EDEF?text=WhatsApp+CRM+Dashboard+Mockup"
+            src="/mockup.png"
             alt="WhatsApp CRM dashboard mockup"
-            className="w-full h-auto"
+            className="w-full h-[400px] object-cover"
           />
         </div>
       </section>
@@ -121,7 +122,8 @@ const App = () => {
               Why Your Business Needs a Better Solution
             </h2>
             <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-              The results of relying on WhatsApp alone are chaos, frustrated customers, and stalled growth.
+              The results of relying on WhatsApp alone are chaos, frustrated
+              customers, and stalled growth.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-8">
@@ -131,16 +133,20 @@ const App = () => {
               </h3>
               <ul className="list-none space-y-2">
                 <li className="flex items-center">
-                  <span className="text-red-500 mr-2">❌</span> No centralized history
+                  <span className="text-red-500 mr-2">❌</span> No centralized
+                  history
                 </li>
                 <li className="flex items-center">
-                  <span className="text-red-500 mr-2">❌</span> Agents don't know who replied last
+                  <span className="text-red-500 mr-2">❌</span> Agents don't
+                  know who replied last
                 </li>
                 <li className="flex items-center">
-                  <span className="text-red-500 mr-2">❌</span> Hard to track deals or tickets
+                  <span className="text-red-500 mr-2">❌</span> Hard to track
+                  deals or tickets
                 </li>
                 <li className="flex items-center">
-                  <span className="text-red-500 mr-2">❌</span> No way to measure team performance
+                  <span className="text-red-500 mr-2">❌</span> No way to
+                  measure team performance
                 </li>
               </ul>
             </div>
@@ -150,16 +156,20 @@ const App = () => {
               </h3>
               <ul className="list-none space-y-2">
                 <li className="flex items-center">
-                  <span className="text-[#25D366] mr-2">✅</span> One shared inbox for your whole team
+                  <span className="text-[#25D366] mr-2">✅</span> One shared
+                  inbox for your whole team
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#25D366] mr-2">✅</span> Every chat becomes a trackable ticket
+                  <span className="text-[#25D366] mr-2">✅</span> Every chat
+                  becomes a trackable ticket
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#25D366] mr-2">✅</span> Customer history and tags at your fingertips
+                  <span className="text-[#25D366] mr-2">✅</span> Customer
+                  history and tags at your fingertips
                 </li>
                 <li className="flex items-center">
-                  <span className="text-[#25D366] mr-2">✅</span> Real-time dashboards on performance
+                  <span className="text-[#25D366] mr-2">✅</span> Real-time
+                  dashboards on performance
                 </li>
               </ul>
             </div>
@@ -175,19 +185,24 @@ const App = () => {
               From Chaos to Scale: A Real WhatsApp CRM Story
             </h2>
             <p className="text-lg text-gray-400 mb-6">
-              In 2022, a metering company had a great product but struggled with WhatsApp support chaos. No visibility, no tracking, no control.
+              In 2022, a metering company had a great product but struggled with
+              WhatsApp support chaos. No visibility, no tracking, no control.
             </p>
-            <div className="bg-white bg-opacity-[0.05] rounded-xl p-8 text-left border border-white/10">
-              <p className="text-lg mb-4">We built them a WhatsApp-based CRM where:</p>
-              <ul className="list-disc list-inside space-y-2 text-gray-300">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] rounded-xl p-8 text-left border border-white/10 text-gray-100">
+              <p className="text-lg mb-4">
+                We built them a WhatsApp-based CRM where:
+              </p>
+              <ul className="list-disc list-inside space-y-2 text-gray-200">
                 <li>Customers messaged one number</li>
                 <li>Multiple agents could reply seamlessly</li>
                 <li>Every chat became a trackable ticket</li>
                 <li>AI gave management real-time insights</li>
               </ul>
               <div className="mt-6">
-                <p className="text-xl font-semibold text-[#25D366] mb-2">⚡ The results:</p>
-                <ul className="list-disc list-inside space-y-2 text-gray-300">
+                <p className="text-xl font-semibold text-[#25D366] mb-2">
+                  ⚡ The results:
+                </p>
+                <ul className="list-disc list-inside space-y-2 text-gray-">
                   <li>20,000+ customers onboarded</li>
                   <li>2 million+ conversations processed</li>
                   <li>A support operation that scaled smoothly</li>
@@ -210,25 +225,33 @@ const App = () => {
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
               <UsersIcon />
               <h3 className="font-semibold text-xl mb-2">Shared Inbox</h3>
-              <p className="text-sm text-gray-400">One number, multiple agents, zero confusion.</p>
+              <p className="text-sm text-gray-200">
+                One number, multiple agents, zero confusion.
+              </p>
             </div>
-            <div className="bg-white bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
               <TagsIcon />
               <h3 className="font-semibold text-xl mb-2">Customer Profiles</h3>
-              <p className="text-sm text-gray-400">Auto-build history + smart tags.</p>
+              <p className="text-sm text-gray-200">
+                Auto-build history + smart tags.
+              </p>
             </div>
-            <div className="bg-white bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
               <FolderOpenIcon />
               <h3 className="font-semibold text-xl mb-2">Sales Pipeline</h3>
-              <p className="text-sm text-gray-400">Drag-and-drop stages for deals.</p>
+              <p className="text-sm text-gray-200">
+                Drag-and-drop stages for deals.
+              </p>
             </div>
-            <div className="bg-white bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] p-6 rounded-xl text-center border border-white/10">
               <ChartLineIcon />
               <h3 className="font-semibold text-xl mb-2">Analytics</h3>
-              <p className="text-sm text-gray-400">See who’s responding fast and who’s lagging.</p>
+              <p className="text-sm text-gray-200">
+                See who’s responding fast and who’s lagging.
+              </p>
             </div>
           </div>
         </div>
@@ -245,7 +268,7 @@ const App = () => {
               <button
                 onClick={() => setIsYearly(false)}
                 className={`py-2 px-6 rounded-full font-medium transition-colors ${
-                  !isYearly ? 'bg-[#25D366] text-black' : 'text-gray-400'
+                  !isYearly ? "bg-[#25D366] text-black" : "text-gray-400"
                 }`}
               >
                 Monthly
@@ -253,7 +276,7 @@ const App = () => {
               <button
                 onClick={() => setIsYearly(true)}
                 className={`py-2 px-6 rounded-full font-medium transition-colors ${
-                  isYearly ? 'bg-[#25D366] text-black' : 'text-gray-400'
+                  isYearly ? "bg-[#25D366] text-black" : "text-gray-400"
                 }`}
               >
                 Yearly (-20%)
@@ -265,15 +288,26 @@ const App = () => {
             <div className="pricing-card">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold mb-1">Free</h3>
-                <p className="text-gray-400 text-sm">For individuals and small teams.</p>
+                <p className="text-gray-400 text-sm">
+                  For individuals and small teams.
+                </p>
                 <p className="text-5xl font-bold mt-4">$0</p>
               </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li><span className="text-[#25D366] mr-2">✓</span> 1 agent</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> 50 chats/month</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> Shared inbox</li>
+              <ul className="space-y-2 text-sm  -- ">
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> 1 agent
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> 50 chats/month
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> Shared inbox
+                </li>
               </ul>
-              <a href="#" className="mt-8 block text-center border border-[#25D366] text-[#25D366] font-semibold py-3 rounded-full transition-colors hover:bg-[#25D366] hover:text-white">
+              <a
+                href="#"
+                className="mt-8 block text-center border border-[#25D366] text-[#25D366] font-semibold py-3 rounded-full transition-colors hover:bg-[#25D366] hover:text-white"
+              >
                 Start Free
               </a>
             </div>
@@ -283,17 +317,29 @@ const App = () => {
                 <h3 className="text-2xl font-bold mb-1 text-[#25D366]">Pro</h3>
                 <p className="text-gray-400 text-sm">For growing teams.</p>
                 <p className="text-5xl font-bold mt-4">
-                  {isYearly ? '$23' : '$29'}
+                  {isYearly ? "$23" : "$29"}
                   <span className="text-lg font-normal text-gray-400">/mo</span>
                 </p>
               </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li><span className="text-[#25D366] mr-2">✓</span> 5 agents</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> 1,000 chats</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> Sales pipeline</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> All Free features</li>
+              <ul className="space-y-2 text-sm  -- ">
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> 5 agents
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> 1,000 chats
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> Sales pipeline
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> All Free
+                  features
+                </li>
               </ul>
-              <a href="#" className="mt-8 block text-center bg-[#25D366] text-black font-semibold py-3 rounded-full transition-transform hover:scale-105">
+              <a
+                href="#"
+                className="mt-8 block text-center bg-[#25D366] text-black font-semibold py-3 rounded-full transition-transform hover:scale-105"
+              >
                 Start Pro
               </a>
             </div>
@@ -303,17 +349,30 @@ const App = () => {
                 <h3 className="text-2xl font-bold mb-1">Growth</h3>
                 <p className="text-gray-400 text-sm">For scaling businesses.</p>
                 <p className="text-5xl font-bold mt-4">
-                  {isYearly ? '$79' : '$99'}
+                  {isYearly ? "$79" : "$99"}
                   <span className="text-lg font-normal text-gray-400">/mo</span>
                 </p>
               </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li><span className="text-[#25D366] mr-2">✓</span> Unlimited agents</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> AI insights</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> Integrations</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> All Pro features</li>
+              <ul className="space-y-2 text-sm  -- ">
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> Unlimited
+                  agents
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> AI insights
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> Integrations
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> All Pro
+                  features
+                </li>
               </ul>
-              <a href="#" className="mt-8 block text-center border border-[#25D366] text-[#25D366] font-semibold py-3 rounded-full transition-colors hover:bg-[#25D366] hover:text-white">
+              <a
+                href="#"
+                className="mt-8 block text-center border border-[#25D366] text-[#25D366] font-semibold py-3 rounded-full transition-colors hover:bg-[#25D366] hover:text-white"
+              >
                 Start Growth
               </a>
             </div>
@@ -321,15 +380,27 @@ const App = () => {
             <div className="pricing-card">
               <div className="mb-6">
                 <h3 className="text-2xl font-bold mb-1">Enterprise</h3>
-                <p className="text-gray-400 text-sm">For large organizations.</p>
+                <p className="text-gray-400 text-sm">
+                  For large organizations.
+                </p>
                 <p className="text-5xl font-bold mt-4">Custom</p>
               </div>
-              <ul className="space-y-2 text-sm text-gray-300">
-                <li><span className="text-[#25D366] mr-2">✓</span> Dedicated support</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> Custom features</li>
-                <li><span className="text-[#25D366] mr-2">✓</span> SLA</li>
+              <ul className="space-y-2 text-sm  -- ">
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> Dedicated
+                  support
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> Custom features
+                </li>
+                <li>
+                  <span className="text-[#25D366] mr-2">✓</span> SLA
+                </li>
               </ul>
-              <a href="#" className="mt-8 block text-center border border-[#25D366] text-[#25D366] font-semibold py-3 rounded-full transition-colors hover:bg-[#25D366] hover:text-white">
+              <a
+                href="#"
+                className="mt-8 block text-center border border-[#25D366] text-[#25D366] font-semibold py-3 rounded-full transition-colors hover:bg-[#25D366] hover:text-white"
+              >
                 Contact Us
               </a>
             </div>
@@ -345,7 +416,8 @@ const App = () => {
               Make Customers Happier. Make Agents More Productive.
             </h2>
             <p className="text-lg md:text-xl lg:text-2xl text-gray-400 mb-8">
-              All your WhatsApp chats organized, trackable, and scalable — so your business grows without chaos.
+              All your WhatsApp chats organized, trackable, and scalable — so
+              your business grows without chaos.
             </p>
             <a href="#pricing" className="btn-primary">
               Start Free Today
@@ -364,24 +436,47 @@ const App = () => {
             </h2>
           </div>
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-white bg-opacity-[0.05] p-6 rounded-xl border border-white/10">
-              <h3 className="text-xl font-semibold mb-2">1. The WhatsApp CRM Playbook for SMBs</h3>
-              <p className="text-sm text-gray-400 mb-4">Discover the essential strategies to manage your business on WhatsApp.</p>
-              <a href="#" className="text-[#25D366] font-medium transition-colors hover:text-white">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] p-6 rounded-xl border border-white/10">
+              <h3 className="text-xl font-semibold mb-2">
+                1. The WhatsApp CRM Playbook for SMBs
+              </h3>
+              <p className="text-sm text-gray-200 mb-4">
+                Discover the essential strategies to manage your business on
+                WhatsApp.
+              </p>
+              <a
+                href="#"
+                className="text-[#25D366] font-medium transition-colors hover:text-white"
+              >
                 Read More <ArrowRightIcon />
               </a>
             </div>
-            <div className="bg-white bg-opacity-[0.05] p-6 rounded-xl border border-white/10">
-              <h3 className="text-xl font-semibold mb-2">2. How to Close 3x More Sales via WhatsApp</h3>
-              <p className="text-sm text-gray-400 mb-4">Learn the sales tactics that can significantly boost your conversion rates.</p>
-              <a href="#" className="text-[#25D366] font-medium transition-colors hover:text-white">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] p-6 rounded-xl border border-white/10">
+              <h3 className="text-xl font-semibold mb-2">
+                2. How to Close 3x More Sales via WhatsApp
+              </h3>
+              <p className="text-sm text-gray-200 mb-4">
+                Learn the sales tactics that can significantly boost your
+                conversion rates.
+              </p>
+              <a
+                href="#"
+                className="text-[#25D366] font-medium transition-colors hover:text-white"
+              >
                 Read More <ArrowRightIcon />
               </a>
             </div>
-            <div className="bg-white bg-opacity-[0.05] p-6 rounded-xl border border-white/10">
-              <h3 className="text-xl font-semibold mb-2">3. Why Shared Inboxes Save 10 Hours a Week</h3>
-              <p className="text-sm text-gray-400 mb-4">See how a shared inbox can transform your team's productivity.</p>
-              <a href="#" className="text-[#25D366] font-medium transition-colors hover:text-white">
+            <div className="bg-[#15ff004d] bg-opacity-[0.05] p-6 rounded-xl border border-white/10">
+              <h3 className="text-xl font-semibold mb-2">
+                3. Why Shared Inboxes Save 10 Hours a Week
+              </h3>
+              <p className="text-sm text-gray-200 mb-4">
+                See how a shared inbox can transform your team's productivity.
+              </p>
+              <a
+                href="#"
+                className="text-[#25D366] font-medium transition-colors hover:text-white"
+              >
                 Read More <ArrowRightIcon />
               </a>
             </div>
@@ -393,17 +488,33 @@ const App = () => {
       <footer className="py-12 bg-[#0b141a]">
         <div className="container mx-auto px-6 text-center text-gray-400">
           <div className="mb-6 flex justify-center gap-6 text-sm font-semibold">
-            <a href="#" className="hover:text-white transition-colors">About</a>
-            <a href="#" className="hover:text-white transition-colors">Blog</a>
-            <a href="#" className="hover:text-white transition-colors">Terms</a>
-            <a href="#" className="hover:text-white transition-colors">Privacy</a>
+            <a href="#" className="hover:text-white transition-colors">
+              About
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Blog
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Terms
+            </a>
+            <a href="#" className="hover:text-white transition-colors">
+              Privacy
+            </a>
           </div>
           <p className="mb-4">
-            <a href="mailto:support@yourcrm.com" className="hover:text-white transition-colors">
+            <a
+              href="mailto:support@yourcrm.com"
+              className="hover:text-white transition-colors"
+            >
               support@yourcrm.com
             </a>
             <span className="mx-2">|</span>
-            <a href="https://wa.me/yournumber" target="_blank" rel="noopener noreferrer" className="whatsapp-green hover:text-white text-3xl transition-colors">
+            <a
+              href="https://wa.me/yournumber"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="whatsapp-green hover:text-white text-3xl transition-colors"
+            >
               <WhatsappIcon />
             </a>
           </p>
